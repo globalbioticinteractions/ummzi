@@ -13,6 +13,8 @@
   "dcterms:bibliographicCitation": "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-01-24 provided by Erika Tucker.",
   "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
   "interactionTypeName": "hasHost",
+  "referenceUrl": "https://doi.org/10.15468/tmxd7n",
+  "doi": "10.15468/tmxd7n",
   "headerRowCount": 1,
   "null": [
     ""
@@ -149,7 +151,7 @@
         "titles": "1,10.collectingevent.startDate",
         "datatype": {
           "base": "date",
-          "format": "MM/dd/yy"
+          "format": "MM/dd/yyyy"
         }
       },
       {
