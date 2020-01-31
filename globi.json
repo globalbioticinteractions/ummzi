@@ -22,7 +22,7 @@
   "tableSchema": {
     "columns": [
       {
-        "name": "sourceOccurrenceId",
+        "name": "sourceCatalogNumber",
         "titles": "1.collectionobject.catalogNumber",
         "datatype": "string"
       },
@@ -151,7 +151,7 @@
         "titles": "1,10.collectingevent.startDate",
         "datatype": {
           "base": "date",
-          "format": "MM/dd/yyyy"
+          "format": "MM/dd/YYYY"
         }
       },
       {
@@ -190,7 +190,7 @@
         "datatype": "string"
       },
       {
-        "name": "targetOccurrenceId",
+        "name": "targetCatalogNumber",
         "titles": "1,93.collectionobjectattribute.text10",
         "datatype": "string"
       },
