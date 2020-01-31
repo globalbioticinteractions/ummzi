@@ -14,6 +14,8 @@
   "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
   "interactionTypeName": "hasHost",
   "referenceUrl": "https://doi.org/10.15468/tmxd7n",
+  "sourceCollectionCode": "ummzi",
+  "sourceInstitutionCode": "UMMZ",
   "doi": "10.15468/tmxd7n",
   "headerRowCount": 1,
   "null": [
