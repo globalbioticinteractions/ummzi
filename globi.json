@@ -10,7 +10,7 @@
   ],
   "url": "ummzi-full-database-export.csv.gz",
   "delimiter": ",",
-  "dcterms:bibliographicCitation": "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-01-24 provided by Erika Tucker.",
+  "dcterms:bibliographicCitation": "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-01-27 provided by Erika Tucker.",
   "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
   "interactionTypeName": "hasHost",
   "referenceUrl": "https://doi.org/10.15468/tmxd7n",
@@ -249,6 +249,11 @@
       {
         "name": "1,63-preparations.preparation.countAmt",
         "titles": "1,63-preparations.preparation.countAmt",
+        "datatype": "string"
+      },
+      {
+        "name": "1.collectionobject.guid",
+        "titles": "1.collectionobject.guid",
         "datatype": "string"
       }
     ]
