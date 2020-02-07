@@ -11,10 +11,13 @@
   "url": "ummzi-full-database-export.csv.gz",
   "delimiter": ",",
   "dcterms:bibliographicCitation": "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-01-27 provided by Erika Tucker and Barry Oconner.",
+  "sourceCitation": "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-01-27 provided by Erika Tucker and Barry Oconner.",
   "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
   "interactionTypeName": "hasHost",
   "referenceUrl": "https://doi.org/10.15468/tmxd7n",
+  "http://rs.tdwg.org/dwc/terms/collectionCode": "ummzi",
   "sourceCollectionCode": "ummzi",
+  "http://rs.tdwg.org/dwc/terms/institutionCode": "UMMZ",
   "sourceInstitutionCode": "UMMZ",
   "doi": "10.15468/tmxd7n",
   "headerRowCount": 1,
@@ -153,7 +156,7 @@
         "titles": "1,10.collectingevent.startDate",
         "datatype": {
           "base": "date",
-          "format": "MM/dd/YYYY"
+          "format": "YYYY-MM-dd"
         }
       },
       {
