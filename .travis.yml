@@ -1,8 +1,15 @@
-install: 
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh" -O check-dataset.sh
-  - chmod +x check-dataset.sh
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh" -O resolve-names.sh
-  - chmod +x resolve-names.sh
-  - wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh" -O create-taxon-cache-map.sh
-
-script: ./resolve-names.sh ${TRAVIS_REPO_SLUG}
+install:
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/check-dataset.sh"
+  -O check-dataset.sh
+- chmod +x check-dataset.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/resolve-names.sh"
+  -O resolve-names.sh
+- chmod +x resolve-names.sh
+- wget "https://raw.githubusercontent.com/globalbioticinteractions/globinizer/master/create-taxon-cache-map.sh"
+  -O create-taxon-cache-map.sh
+script: "./resolve-names.sh ${TRAVIS_REPO_SLUG}"
+env:
+  global:
+  - secure: WWlFzC6rEUOLiqQjDtSeOkeB6sK0kQiUZhkcNlDcRX6ZuCO1eVXA6FEn7hZ2tlhQiL4B2OfSpfdCKU5ZJGLZFkWQFxBr62pBseedScGAgv0HdUB2nu99buTPZNXu/l20Ygx3PkskQv3LnpYNZCjhKWOMkX8K8+smDtJvH0xwAUOBftt9PDFqH96KaZwMF7ExjDS1J+xBafpzTmIBk9t1I6Edc80lGndlTqrOaX7cZzHuhGlo/rS46wOsWKDWOTHIE1vx3miiXpz7VEv04F07xB1QiwTg+mE9mPBbO1xVxZzhuQusgO34vVPIiz88Mrqx9GKw8M+WGIObq79Dse8xr5sYgnWGFB95EQumeawvLESNb30cuBIyO31344I+COokDSN0eWG0gpH7qshXjgAy+MKO34E16mVRJFHInGZjh8JqwCD2f1BbcX3MOD42C1B+cQyWkwNhS2/OPtIlzYkidv+A+45EyILcI87pZZEpnGKDPzS2jD7EYm8k7LQrHJWwj/+J4itLKcIWX/pcj7CO2St3IbAtFjxAbMOCDrNdf2K3m83Y4IgRYG93m/9EbF9ibnifvDZYwdxsHohpfBpatn/PNeh0dOq/SaxHVhGASzfR1jE8OJ+BKrtj9x0y3HnUwcxYqAPyXB3Jrx7U7sycQuo+3o+X1ITBx6xj0UBUPtA=
+  - secure: FzWR6J8t4uSWEnKPKcZlNg5TAdlNJXUJWKcRoADkZYWod+4wdtJQPkhQTITfDenVAQil4oVValq0gfzjpZrQxGgtDblKlwmDW9irEMZrnnC9l2MgYfpjIRbHdc962bz5qTWmbPQOc9NKb+ghjbFu7i32Uwjj2zd3o/qXjxV67QxlvTqQ5nPmmfWu03Jec1kk83fjCY64rs5/zIi5G/oLkaF2YiC5OKX2OHS6zIke7YofFohjXSHMVmrWmwa+WdAY3Yo1i2F0QSH6S3h2jyMnr5aOjrlqz7hgX7cu7F4WwoRzkwPetTE+ZstNlMY27uRbqb19JM8BMaWj/VNY49z8KlsGU+TYOyc+EcmNBgT38x+8x/N+ExGcS5qg331IPx7r4dpFQKw95iJcRKM/NkrvsVAUs+j2S9UaRqj5h/tbAZAS3QQyZhwB+UJIzh0R3dRQIu72zuWYhUO7s+OCJ7DK/BHsm2V2s8Z5Sp81RQkwNmqDWYobcuK23buh+Ukg3Ym4uhZhyqWAmtVr8zBb3TXFofD78MxEeMeg6lGEuXBr2F6YKu3uwNIiDit6UQJjLjMPG6yCYFClsfaAV62ET1QvcrfqZNz6z/1pyjPcS0rlpQ0WzlPwSxlykIQ459rE26NALFFvRBtuQfFduer6MJO2lO+ctG2yg1zLoDN6g5umldA=
+  - secure: Cfl4vjuqXc8FnGTXmfCtdws4u6f/sn+ppLMU/ehu7Fz2I1uM65/g4Tp/mRznzPRwhK5CVue4MLDw97Hq8DskhBFsI4m4GkELCl+bVT5grX8V4MdMAWuzvUzPtIpCGtYospqTIttULCJQxQYbTNU55buoWBxJGqS3udRPmnBiQxdW6SRAGyo5TSbiY1ScRmeqaq+brmz9QeDXDZyvi5i36DcjHo3p5YakJgUOffY3P8oft2dAzmMscYVMeRl3Q3OldL97jVj652b70lp5f3ZJ81tsyJbftsNVglwwfkFPBhcwl/BssPTTHC2sBkBAMFfpZZi3XjyB0dDrI19U1NlypDeJU6T8zULW8ktGThiK2RbuoOsR22ScOh6zVxWjqXtDNcZWXKdXTqKsrWhU9lk9+xY0PTwSGJor+UHQZNcGLF+h/Ch3hWgDbjQK5UndT9zHqoAOo+/+3VNEm8rIVJLH4WCmUNNezfMUpJ5JGjr3uT7HuD0kRjmvr7io3gvsZVRait6sIiqt86A/Tt6T481lPXIUWFV/PsxmLMRgdi6gQCBkeiNzLu5ldBj15Ik2+rWbPt0ued+wA3XMccAVo3tLTUUvVvHJ6yub7IWXTTa9Zz/IxUXYbaBcY8pHVNg1CBE72S9SqNNdiQij4Ztiqh7IOmNLxB3WPhPULE3MywJ/zkE=
