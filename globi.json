@@ -255,7 +255,7 @@
         "datatype": "string"
       },
       {
-        "name": "1.collectionobject.guid",
+        "name": "sourceOccurrenceId",
         "titles": "1.collectionobject.guid",
         "datatype": "string"
       }
