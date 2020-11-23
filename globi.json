@@ -227,7 +227,7 @@
         "titles" : "1,10.collectingevent.startDate",
         "datatype": {
           "base": "date",
-          "format": "YYYY-MM-dd"
+          "format": "MM/dd/YYYY"
         }
       }, {
         "name" : "1,10.collectingevent.endDate",
