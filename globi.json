@@ -16,7 +16,8 @@
     "http://rs.tdwg.org/dwc/terms/institutionCode": "UMMZ",
     "sourceInstitutionCode": "UMMZ",
     "doi": "10.15468/tmxd7n",
-
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
+    "interactionTypeName": "hasHost",
     "delimiter" : ",",
     "headerRowCount" : 1,
     "null" : [ "" ],
