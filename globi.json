@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:///home/jorrit/proj/globi/data/ummzi/UMMZI-data-download-current.csv.gz",
+    "url" : "UMMZI-data-download-current.csv.gz",
     "dcterms:bibliographicCitation" : "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-11-20 provided by Erika Tucker and Barry Oconner.",
     "referenceUrl": "https://doi.org/10.15468/tmxd7n",
     "http://rs.tdwg.org/dwc/terms/collectionCode": "ummzi",
