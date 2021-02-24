@@ -1,8 +1,10 @@
+**This repository has been deprecated and archived.**
+
+**Please use https://github.com/EMTuckerLabUMMZ/ummzi instead.**
+
+
+
 [![Build Status](https://travis-ci.com/globalbioticinteractions/ummzi.svg)](https://travis-ci.com/globalbioticinteractions/ummzi) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/ummzi)](http://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/ummzi) 
-
-This repository has been deprecated and archived. 
-
-Please use https://github.com/EMTuckerLabUMMZ/ummzi instead.
 
 
 Configuration to help make the parasite-host records in collection of the University of Michigan Museum of Zoology Division of Insects available through Global Biotic Interactions (GloBI, https://globalbioticinteractions.org). 
