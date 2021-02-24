@@ -12,6 +12,7 @@
     "dcterms:bibliographicCitation" : "University of Michigan Museum of Zoology Insect Division. Full Database Export 2020-11-20 provided by Erika Tucker and Barry Oconner.",
     "referenceUrl": "https://doi.org/10.15468/tmxd7n",
     "http://rs.tdwg.org/dwc/terms/collectionCode": "ummzi",
+    "basisOfRecordName": "PreservedSpecimen",
     "sourceCollectionCode": "ummzi",
     "http://rs.tdwg.org/dwc/terms/institutionCode": "UMMZ",
     "sourceInstitutionCode": "UMMZ",
