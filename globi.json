@@ -1,4 +1,5 @@
 {
+  "deprecated" : true,
   "@context" : [ "http://www.w3.org/ns/csvw", {
     "@language" : "en"
   } ],
@@ -17,7 +18,6 @@
     "http://rs.tdwg.org/dwc/terms/institutionCode": "UMMZ",
     "sourceInstitutionCode": "UMMZ",
     "doi": "10.15468/tmxd7n",
-    "deprecated" : true,
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
     "interactionTypeName": "hasHost",
     "delimiter" : ",",
